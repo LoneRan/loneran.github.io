@@ -56,7 +56,7 @@ defaults:
       comments: "true"
 
 # Serving
-url: "loneran.github.io"
+url: "https://loneran.github.io"
 baseurl: ""
 
 # Includes
