@@ -1,8 +1,8 @@
 # General Settings
-name: Steve Austin
-job_title: UI/UX Engineer
-email: youremail@gmail.com
-description: I build great products at Google, currently Google Maps. I also enjoy capturing moments with my camera and discovering new music. Follow me Twitter or drop me a line.
+name: Yibo Wang
+job_title: Current Graduate at USC
+email: quentin0307@hotmail.com
+description:
 avatar: https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/128.jpg
 favicon: /favicon.ico
 twitter_handler: your_handler
@@ -15,9 +15,9 @@ social_networks:
 -  { name: twitter, url: 'http://twitter.com' }
 -  { name: instagram, url: '' }
 -  { name: google-plus, url: '' }
--  { name: linkedin, url: '' }
+-  { name: linkedin, url: 'http://www.linkedin.com/in/yibo--wang' }
 -  { name: skype, url: '' }
--  { name: github, url: '' }
+-  { name: github, url: 'http://github.com/LoneRan' }
 -  { name: codepen, url: '' }
 -  { name: stack-overflow, url: '' }
 -  { name: dribbble, url: '' }
