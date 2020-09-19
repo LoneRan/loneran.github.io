@@ -12,7 +12,7 @@ Markdown (or Textile), Liquid, HTML & CSS go in. Static sites come out ready for
 # sort algorithm in java
 
 ## Bubble sort
-```
+{% highlight ruby linenos %}
 public static void bubblesort(int[] array){
 	boolean sorted = false;
 	int temp;
@@ -28,10 +28,10 @@ public static void bubblesort(int[] array){
 		}
 	}
 } 
-```
+{% endhighlight %}
 
 ## Insertion Sort
-```
+{% highlight ruby linenos %}
 public static void insertionsort(int[] array){
 	for(int i =0; i < array.length; i++){
 		int current = array[i];
@@ -43,13 +43,13 @@ public static void insertionsort(int[] array){
 		array[j+1] = current;
 	}
 }
-```
+{% endhighlight %}
 
 ## Selection Sort
 
 
 ## Merge Sort
-```
+{% highlight ruby linenos %}
   public static void merge(int[] left_arr,int[] right_arr, int[] arr,int left_size, int right_size){
       
       int i=0,l=0,r = 0;
@@ -95,10 +95,10 @@ public static void insertionsort(int[] array){
     // Calling the merge method on each subdivision
       merge(left_arr,right_arr,arr,mid,len-mid);
   }
-```
+{% endhighlight %}
 
 ## Quick Sort
-```
+{% highlight ruby linenos %}
 public class Test {
 
 	public static void main(String[] args) {
@@ -156,4 +156,4 @@ public class Test {
 
 }
 
-```
+{% endhighlight %}
