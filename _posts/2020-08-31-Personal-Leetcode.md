@@ -13,5 +13,10 @@ tags:
 - Java
 ---
 
+> 159. Longest Substring with At Most Two Distinct Characters
 
-`159(medium)`](https://gist.github.com/LoneRan/2cdd40d62f5f391660e1f6cafdbac5ef)
+
+| Problem Link | Solution Link |
+| --- | --- |
+| [📜problem](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) | [`solution`](https://gist.github.com/LoneRan/2cdd40d62f5f391660e1f6cafdbac5ef)|
+
