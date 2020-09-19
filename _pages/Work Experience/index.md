@@ -4,10 +4,14 @@ title:  "Experience"
 permalink: "/experience/"
 ---
 
+## Course Grader
+> Univeristy of California, Los Angeles, CA
 
+- Course grader of EE503: Probabilitie for Electrical and Computing Engineers
 
 ## Software Development Intern
 > Lenonvo, Beijing, China
+> Sep 2018 - Feb 2019
 
 - Deployed Apache Cassandra for Lenovo Cloud; delivered to Kafka to resolve archive log exception
 - Maintained high availability under high concurrency by utilizing OpenResty for upcoming discount event
