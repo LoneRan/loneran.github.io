@@ -4,9 +4,13 @@ title:  "Portfolio"
 permalink: "/portfolio/"
 ---
 
-<figure>
-    <img src="https://cdn.dribbble.com/users/1073937/screenshots/5036567/waterfall.png" />
-    <figcaption>Created by <a href="https://dribbble.com/HannahLizSharp" target="_blank_">Hannah Sharp</a></figcaption>
-</figure>
+> Burn bright!
+Solid backend, server, Linux related experience with a demonstrated history of working in the related industry.
+Strong research professional with a Master's degree focused in Electrical Engineering from the University of Southern California and a Bachelors' degree focused in Remote Sending from Beihang University. 
 
-In addition to writing posts, another thing you may want to do with your Jekyll site is create static pages. By taking advantage of the way Jekyll copies files and directories, this is easy to do. [More Information](https://jekyllrb.com/docs/pages/){:target="_blank"}
+SKILLS:
+Programming Languages: Java, C/C++, Python, JavaScript, HTML/CSS, SQL, Shell
+Framework: Node.js, JQuery, React.js, Spring Boot
+Database: MongoDB, MySQL
+Server tool: Nginx, Kafka, Maven
+Others: Machine Learning
