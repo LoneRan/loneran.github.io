@@ -2,9 +2,13 @@
 layout: post
 date: 2020-05-31 15:40
 title:  "Pre/In/Post order"
-mood: happy
+description: Pre-order & in-order & post-order traversal
+comments: true
 category: 
 - docs
+- help
+tags:
+- documentation
 ---
 
 Markdown (or Textile), Liquid, HTML & CSS go in. Static sites come out ready for deployment.
@@ -25,6 +29,7 @@ Markdown (or Textile), Liquid, HTML & CSS go in. Static sites come out ready for
 
 总结： 典型的递归数据结构，典型的用栈来简化操作的算法。
 
+<!--more-->
 ## 中序遍历
 中序遍历的顺序是 左-根-右，根节点不是先输出，这就有一点点复杂了。
 
