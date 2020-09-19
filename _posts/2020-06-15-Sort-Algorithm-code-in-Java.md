@@ -13,7 +13,6 @@ tags:
 - java
 ---
 
-Markdown (or Textile), Liquid, HTML & CSS go in. Static sites come out ready for deployment.
 
 # sort algorithm in java
 
