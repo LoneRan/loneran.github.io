@@ -2,9 +2,14 @@
 layout: post
 date: 2020-06-13 02:45
 title:  "Cookies Intro"
-mood: tired
+description: Introduction session to cookies
+comments: false
 category: 
 - docs
+- help
+tags:
+- documentation
+- cookies
 ---
 
 Markdown (or Textile), Liquid, HTML & CSS go in. Static sites come out ready for deployment.
@@ -19,7 +24,7 @@ Basically when you close the website, the cookies will be removed from your grow
 **Persistent cookies**
 Even when you close your browser, the cookies will still be stored on it. And each time you return to the website that created this cookie, or you go to a website that has a resource produced by the cookie’s issuer (eg, an ad), this data is returned to the issuer.
 
-	
+<!--more-->	
 **First-party cookies**
 
 
