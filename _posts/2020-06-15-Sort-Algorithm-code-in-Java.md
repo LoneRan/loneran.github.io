@@ -2,9 +2,15 @@
 layout: post
 date: 2020-06-15 10:11
 title:  "Sorting Code In Java"
-mood: happy
+description: Basic information about the Sorting Algorithm.
+comments: true
 category: 
 - docs
+- help
+tags:
+- documentation
+- sort
+- java
 ---
 
 Markdown (or Textile), Liquid, HTML & CSS go in. Static sites come out ready for deployment.
@@ -29,7 +35,7 @@ public static void bubblesort(int[] array){
 	}
 } 
 {% endhighlight %}
-
+<!--more-->
 ## Insertion Sort
 {% highlight ruby linenos %}
 public static void insertionsort(int[] array){
