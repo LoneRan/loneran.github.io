@@ -12,7 +12,6 @@ tags:
 - cookies
 ---
 
-Markdown (or Textile), Liquid, HTML & CSS go in. Static sites come out ready for deployment.
 
 # Introduction
 
@@ -20,6 +19,11 @@ Markdown (or Textile), Liquid, HTML & CSS go in. Static sites come out ready for
 
 **Session cookies**
 Basically when you close the website, the cookies will be removed from your growers, so its risk is relatively low.
+
+<figure class="alignleft">
+	<img width="250" src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=3f9c78df0edb464244bbabb04d1797d8" />
+	<figcaption>Photo by <a href="https://unsplash.com/dustinlee" target="_blank">Dustin Lee</a>.</figcaption>
+</figure>
 
 **Persistent cookies**
 Even when you close your browser, the cookies will still be stored on it. And each time you return to the website that created this cookie, or you go to a website that has a resource produced by the cookie’s issuer (eg, an ad), this data is returned to the issuer.
