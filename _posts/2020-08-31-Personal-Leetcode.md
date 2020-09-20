@@ -16,7 +16,7 @@ tags:
 
 > 1594-> Maximum Non Negative Product in a Matrix
 [📜problem](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/)
-
+<!--more-->
 - Solution 1 (DP):
 {% highlight ruby linenos %}
 
@@ -57,7 +57,7 @@ tags:
 
 {% endhighlight %}
 
-<!--more-->
+
 - Solution 2 (DFS):
 
 {% highlight ruby linenos %}
