@@ -62,33 +62,33 @@ public int maxProductPath(int[][] grid) {
 
 {% highlight ruby linenos %}
 
-class Solution {
-    int mod = 1000000007;
-    double res = -1;
-    public int maxProductPath(int[][] grid) {
-        if(grid.length == 0 || grid[0].length == 0) return -1;
-        dfs(0,0,grid,grid[0][0]);
-        return (int)(res%mod);
-    }
-    public void dfs(int i, int j, int[][] grid, double curr){
-        if(i == grid.length -1 && j == grid[0].length -1 ){
-            res = Math.max(res, curr);
-            return;
-        
+        class Solution {
+            int mod = 1000000007;
+            double res = -1;
+            public int maxProductPath(int[][] grid) {
+                if(grid.length == 0 || grid[0].length == 0) return -1;
+                dfs(0,0,grid,grid[0][0]);
+                return (int)(res%mod);
+            }
+            public void dfs(int i, int j, int[][] grid, double curr){
+                if(i == grid.length -1 && j == grid[0].length -1 ){
+                    res = Math.max(res, curr);
+                    return;
+
+                }
+                if(grid[i][j] == 0){
+                    res = Math.max(res, 0);
+                    return;
+                }
+
+                if(i+1 < grid.length){
+                    dfs(i+1, j, grid, curr * grid[i+1][j]);
+                }
+                if(j + 1 < grid[0].length){
+                    dfs(i, j+1, grid, curr * grid[i][j+1]);
+                }
+            }
         }
-        if(grid[i][j] == 0){
-            res = Math.max(res, 0);
-            return;
-        }
-        
-        if(i+1 < grid.length){
-            dfs(i+1, j, grid, curr * grid[i+1][j]);
-        }
-        if(j + 1 < grid[0].length){
-            dfs(i, j+1, grid, curr * grid[i][j+1]);
-        }
-    }
-}
 
 {% endhighlight %}
 
