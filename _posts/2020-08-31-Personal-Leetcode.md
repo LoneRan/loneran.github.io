@@ -20,40 +20,40 @@ tags:
 - Solution 1 (DP):
 {% highlight ruby linenos %}
 
-public int maxProductPath(int[][] grid) {
-        int n = grid.length;
-        int m = grid[0].length;
-        double[][] curMax = new double[n][m];
-        double[][] curMin = new double[n][m];
-        curMax[0][0] = grid[0][0];
-        curMin[0][0] = grid[0][0];
-        for (int i = 1; i < grid.length; i++) {
-            curMax[i][0] = grid[i][0] * curMax[i - 1][0];
-            curMin[i][0] = grid[i][0] * curMin[i - 1][0];
-        }
-        for (int i = 1; i < grid[0].length; i++) {
-            curMax[0][i] = grid[0][i] * curMax[0][i - 1];
-            curMin[0][i] = grid[0][i] * curMin[0][i - 1];
-        }
-        
-        for (int i = 1; i < n; i++) {
-            for (int j = 1; j < m; j++) {
-                if (grid[i][j] >= 0) {
-                    curMax[i][j] = Math.max(curMax[i][j - 1] * grid[i][j], curMax[i - 1][j] * grid[i][j]);
-                    curMin[i][j] = Math.min(curMin[i][j - 1] * grid[i][j], curMin[i - 1][j] * grid[i][j]);
-                } else {
-                    curMax[i][j] = Math.max(curMin[i][j - 1] * grid[i][j], curMin[i - 1][j] * grid[i][j]);
-                    curMin[i][j] = Math.min(curMax[i][j - 1] * grid[i][j], curMax[i - 1][j] * grid[i][j]);
+        public int maxProductPath(int[][] grid) {
+                int n = grid.length;
+                int m = grid[0].length;
+                double[][] curMax = new double[n][m];
+                double[][] curMin = new double[n][m];
+                curMax[0][0] = grid[0][0];
+                curMin[0][0] = grid[0][0];
+                for (int i = 1; i < grid.length; i++) {
+                    curMax[i][0] = grid[i][0] * curMax[i - 1][0];
+                    curMin[i][0] = grid[i][0] * curMin[i - 1][0];
                 }
-            }
-        }
-      
-        if (curMax[n - 1][m - 1] < 0) {
-            return -1;
-        } else {
-            return (int)(curMax[n - 1][m - 1] % 1000000007);
-        }
- }
+                for (int i = 1; i < grid[0].length; i++) {
+                    curMax[0][i] = grid[0][i] * curMax[0][i - 1];
+                    curMin[0][i] = grid[0][i] * curMin[0][i - 1];
+                }
+
+                for (int i = 1; i < n; i++) {
+                    for (int j = 1; j < m; j++) {
+                        if (grid[i][j] >= 0) {
+                            curMax[i][j] = Math.max(curMax[i][j - 1] * grid[i][j], curMax[i - 1][j] * grid[i][j]);
+                            curMin[i][j] = Math.min(curMin[i][j - 1] * grid[i][j], curMin[i - 1][j] * grid[i][j]);
+                        } else {
+                            curMax[i][j] = Math.max(curMin[i][j - 1] * grid[i][j], curMin[i - 1][j] * grid[i][j]);
+                            curMin[i][j] = Math.min(curMax[i][j - 1] * grid[i][j], curMax[i - 1][j] * grid[i][j]);
+                        }
+                    }
+                }
+
+                if (curMax[n - 1][m - 1] < 0) {
+                    return -1;
+                } else {
+                    return (int)(curMax[n - 1][m - 1] % 1000000007);
+                }
+         }
 
 {% endhighlight %}
 
