@@ -12,7 +12,7 @@ disqus: your_disqus_site
 # Social Accounts
 social_networks:
 -  { name: facebook, url: 'http://facebook.com' }
--  { name: twitter, url: 'http://twitter.com' }
+-  { name: twitter, url: 'https://twitter.com/loneran2' }
 -  { name: instagram, url: '' }
 -  { name: google-plus, url: '' }
 -  { name: linkedin, url: 'http://www.linkedin.com/in/yibo--wang' }
@@ -24,7 +24,7 @@ social_networks:
 -  { name: behance, url: '' }
 -  { name: pinterest, url: '' }
 -  { name: tumblr, url: '' }
--  { name: youtube, url: '' }
+-  { name: youtube, url: 'https://www.youtube.com/channel/UCHDgQOG6ThWuNztH-vBc_8w?view_as=subscriber' }
 -  { name: vimeo, url: '' }
 -  { name: vine, url: '' }
 -  { name: 500px, url: '' }
