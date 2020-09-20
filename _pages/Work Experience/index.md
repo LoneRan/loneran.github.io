@@ -10,7 +10,8 @@ permalink: "/experience/"
 - Course grader of EE503: Probabilitie for Electrical and Computing Engineers
 
 ## Software Development Intern
-> Lenonvo, Beijing, China
+> Lenovo, Beijing, China
+
 > Sep 2018 - Feb 2019
 
 - Deployed Apache Cassandra for Lenovo Cloud; delivered to Kafka to resolve archive log exception
@@ -25,3 +26,11 @@ to smart customer service
 <figure>
     <img src="../../../assets/images/IMG_1092.jpeg" />
 </figure>
+
+## Research Assistent
+> Space Optics Lab, Beihang University
+
+> Mar 2018 - Oct 2018
+
+- Developed stitching algorithm on Matlab and completed image mosaic process based on Zernike polynomials to restore images and measure surfaces of objects from holograms
+- Conducted experiments on 3D surface measurement of MEMS devices including metal ones and transparent plastic ones with a new self-designed dual-wavelength optical path to eliminate wrap situation produced by surface shape jump
