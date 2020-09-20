@@ -107,7 +107,6 @@ merge(left_arr,right_arr,arr,mid,len-mid);
 ## Quick Sort
 {% highlight ruby linenos %}
 public class Test {
-
 	public static void main(String[] args) {
 		int n[] = { 6, 5, 2, 7, 3, 9, 8, 4, 10, 1 };
 		quicksort(n);
@@ -116,11 +115,9 @@ public class Test {
 			System.out.print(m + " ");
 		}
 	}
-
 	public static void quicksort(int n[]) {
 		sort(n, 0, n.length - 1);
 	}
-
 	public static void sort(int n[], int l, int r) {
 		if (l < r) {
 			// 一趟快排，并返回交换后基数的下标
@@ -132,7 +129,6 @@ public class Test {
 		}
 
 	}
-
 	public static int patition(int n[], int l, int r) {
 		// p为基数，即待排序数组的第一个数
 		int p = n[l];
@@ -154,12 +150,10 @@ public class Test {
 		swap(n, l, i);
 		return i;
 	}
-
 	private static void swap(int n[], int i, int j) {
 		int temp = n[i];
 		n[i] = n[j];
 		n[j] = temp;
 	}
-
 }
 {% endhighlight %}
