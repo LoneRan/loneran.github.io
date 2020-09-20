@@ -59,7 +59,9 @@ public int maxProductPath(int[][] grid) {
 
 <!--more-->
 - Solution 2 (DFS):
+
 {% highlight ruby linenos %}
+
 class Solution {
     int mod = 1000000007;
     double res = -1;
