@@ -2,7 +2,7 @@
 layout: post
 date: 2020-09-27 19:20
 title:  "Monotone Stack"
-description: monotone stack in Java
+description: monotone stack in C++
 comments: true
 category: 
 - docs
@@ -10,11 +10,11 @@ category:
 tags:
 - stack
 - monotone
-- java
+- C++
 ---
 
 
-## Monotone Stack
+
 > What is monotonous increase stack?
 
 The elements in the an monotonous increase stack keeps an increasing order.
@@ -88,9 +88,9 @@ for(int i = 0; i < A.size(); i++){
 
 
 ### Where we use monotone stack in leetcode
-1130. Minimum Cost Tree From Leaf Values
-907. Sum of Subarray Minimums
-901. Online Stock Span
-856. Score of Parentheses
-503. Next Greater Element II
-496. Next Greater Element I
+- 1130. Minimum Cost Tree From Leaf Values
+- 907. Sum of Subarray Minimums
+- 901. Online Stock Span
+- 856. Score of Parentheses
+- 503. Next Greater Element II
+- 496. Next Greater Element I
