@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2020-12-23 11:01
+date: 2021-01-27 06:30
 title:  "Create and manage a database with multiple schema on SQL server"
 description: This is a guideline showing how to create a database with multiple schemas using either SQL Server Management Studio (SSMS) or SQL queries.
 comments: true
