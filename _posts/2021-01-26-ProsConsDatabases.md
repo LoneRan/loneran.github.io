@@ -28,6 +28,8 @@ There are couple of questions that might help us decide: ([https://www.oreilly.c
 
 We better consider placing different schemas in the same database if we answer &quot;Yes&quot; to all questions (or most of them).
 
+<!--more-->
+
 Pros:
 
 1. Lower storage and memory overhead, every database carries a certain amount of overhead.
