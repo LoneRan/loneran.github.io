@@ -12,7 +12,7 @@ tags:
 - SQL
 ---
 
-** Creating a demo database
+## Creating a demo database
 
 Follow the following step to create a database on-premises:
 
@@ -32,6 +32,8 @@ In the Database User - New dialog box, on the General page, select one of the fo
 - User mapped to a certificate
 - User mapped to an asymmetric key
 - Windows user
+
+<!--more-->
 
 For example to create a user with login and password:
 
