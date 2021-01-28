@@ -80,11 +80,11 @@
 #   style: compressed
 
 # General Settings
-name: Steve Austin
-job_title: UI/UX Engineer
-email: youremail@gmail.com
-description: I build great products at Google, currently Google Maps. I also enjoy capturing moments with my camera and discovering new music. Follow me Twitter or drop me a line.
-avatar: https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/128.jpg
+name: Yibo Wang
+job_title: Software Developer Intern @iSmileTechnologies. Currently graduate @USC
+email: yibo.ivan.wang@gmail.com
+description: I enjoying coding, especially the one with a neat style and high performance. Interested in both front-end and back-end development. 
+avatar: /assets/images/IMG_2039.jpeg
 favicon: /favicon.ico
 twitter_handler: your_handler
 analytics_code: UA-XXXXXXX-2
@@ -92,13 +92,13 @@ disqus: your_disqus_site
 
 # Social Accounts
 social_networks:
--  { name: facebook, url: 'http://facebook.com' }
--  { name: twitter, url: 'http://twitter.com' }
+-  { name: facebook, url: '' }
+-  { name: twitter, url: 'http://twitter.com/loneran2' }
 -  { name: instagram, url: '' }
 -  { name: google-plus, url: '' }
--  { name: linkedin, url: '' }
+-  { name: linkedin, url: 'http://www.linkedin.com/in/yibo--wang' }
 -  { name: skype, url: '' }
--  { name: github, url: '' }
+-  { name: github, url: 'http://github.com/LoneRan' }
 -  { name: codepen, url: '' }
 -  { name: stack-overflow, url: '' }
 -  { name: dribbble, url: '' }
