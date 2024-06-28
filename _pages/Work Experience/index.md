@@ -28,7 +28,8 @@ gameplay smoothness and reduced network bandwidth usage.
 • Deployed new features using Gameplay Ability System and Gameplay Effect, enhancing gameplay depth
 • Created an algorithm to simulate real physical gas diffusion, implemented on tactical equipment, resulting in a more realistic and immersive gameplay experience, recognized with a patent.
 
-- Server
+Server
+
 • Implemented Dynamic Tick Rate of Dedicated Server based on multiple strategies, dynamically adjusting tick rates in real-time to provide low-latency experience for users and reduce server costs (patent issued).
 • Maintained dedicated servers and proactively resolved crashes to ensure uninterrupted gameplay for 9 million daily active users, achieving a 99.9% server uptime and minimizing player disruption.
 • Developed an automatic network flow monitor using Network Insights data, detecting large bunches and overseeing network flow changes between versions, resulting in a 30% reduction in network-related issues and improved overall game stability.
